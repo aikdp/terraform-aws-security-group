@@ -18,6 +18,6 @@
 #   value       = module.ansible_sg.id
 # }
 
-output "aws_security_group" {
+output "id" {
   value       = aws_security_group.main.id
 }
